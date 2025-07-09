@@ -74,7 +74,7 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll; /* ← ISSO resolve o problema no celular */
 }
 
 .main .content {
